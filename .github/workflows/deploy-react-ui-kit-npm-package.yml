@@ -1,0 +1,27 @@
+name: Publish React UI KIT to npmjs
+on:
+  push:
+      branches:
+        - main
+      paths:
+        - 'packages/react-ui-kit/**/*'
+  pull_request:
+      branches:
+        - main
+      paths:
+        - 'packages/react-ui-kit/**/*'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      # Setup .npmrc file to publish to npm
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18.16.0'
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm i
+      - run: npm run build -w packages/react-ui-kit
+      - run: cd packages/react-ui-kit/dist && npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

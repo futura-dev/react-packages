@@ -1,0 +1,12 @@
+{
+  "name": "@futura-dev/react-packages",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/react-ui-kit",
+    "packages/react-utils-kit"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1"
+  }
+}
