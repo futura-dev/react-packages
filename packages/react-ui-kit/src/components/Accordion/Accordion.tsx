@@ -1,16 +1,13 @@
 import { useState } from "react";
 
-// useless
+// types
+import { AccordionProps } from "./types";
+
+// components
 import { Divider, Space } from "@/components";
 
-// images
+// icons
 import { IconCaretDown, IconCaretUp } from "@/static/icons";
-
-interface AccordionProps {
-  title: string;
-  description?: string;
-  children: React.ReactNode;
-}
 
 export const Accordion = ({ title, description, children }: AccordionProps) => {
   const [show, setShow] = useState(false);

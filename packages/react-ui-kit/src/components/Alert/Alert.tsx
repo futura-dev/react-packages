@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 // types
 import { AlertProps } from "./types";
 
-export const Alert = ({ text, active, variant, className = "", description, timing = 3000 }: AlertProps) => {
+export const Alert = ({ text, description, active, variant, className = "", timing = 3000 }: AlertProps) => {
   let variantColor = "";
 
   const [show, setShow] = useState(false);

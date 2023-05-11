@@ -1,10 +1,7 @@
 import classNames from "classnames";
 
-interface DividerProps {
-  isSmall?: boolean;
-  className?: string;
-  direction?: "x" | "y";
-}
+// types
+import { DividerProps } from "./types";
 
 export const Divider = ({ className, direction = "x", isSmall = false }: DividerProps) => {
   return (

@@ -1,15 +1,9 @@
 import classNames from "classnames";
-import { ReactElement } from "react";
 
-interface ButtonProps {
-  text: string | ReactElement;
-  onClick?: () => void;
-  size?: "s" | "m" | "l" | "xl";
-  variant?: "purple" | "white" | "black";
-  className?: string;
-}
+// types
+import { ButtonProps } from "./types";
 
-export const Button = ({ text, onClick, size, variant = "purple", className }: ButtonProps) => {
+export const Button = ({ text, onClick, size, variant = "custom", className = "" }: ButtonProps) => {
   let variantClass = "";
   let sizeTextClass = "";
   let sizeButtonClass = "";
@@ -51,6 +45,9 @@ export const Button = ({ text, onClick, size, variant = "purple", className }: B
       break;
     case "black":
       variantClass = "button-black";
+      break;
+    default:
+      variantClass = className;
       break;
   }
 
