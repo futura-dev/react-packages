@@ -1,7 +1,15 @@
 name: Publish React UI KIT to npmjs
 on:
-  release:
-    types: [published]
+  push:
+      branches:
+        - main
+      paths:
+        - 'packages/react-ui-kit'
+  pull_request:
+      branches:
+        - main
+      paths:
+        - 'packages/react-ui-kit'
 jobs:
   build:
     runs-on: ubuntu-latest
