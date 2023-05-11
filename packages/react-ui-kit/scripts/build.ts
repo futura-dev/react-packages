@@ -26,10 +26,6 @@ const getFilesRecursive = (dir: string, baseDir = "", extensions = ["ts", "tsx"]
       return acc || file.endsWith(ext);
     }, false);
 
-    if (extensions.includes("js")) {
-      console.log("FILE", file, "MATCHED", isExtensionMatched);
-    }
-
     if (stat.isDirectory()) {
       const newBaseDir = path.join(baseDir, file);
       files.push(...getFilesRecursive(filePath, newBaseDir, extensions, where));

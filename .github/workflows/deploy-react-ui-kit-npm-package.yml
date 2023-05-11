@@ -21,7 +21,7 @@ jobs:
           node-version: '18.16.0'
           registry-url: 'https://registry.npmjs.org'
       - run: npm i
-      - run: npm run build -w react-ui-kit
+      - run: npm run build -w packages/react-ui-kit
       - run: cd packages/react-ui-kit/dist && npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
