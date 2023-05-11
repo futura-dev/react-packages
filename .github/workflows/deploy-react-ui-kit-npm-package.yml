@@ -4,12 +4,12 @@ on:
       branches:
         - main
       paths:
-        - 'packages/react-ui-kit'
+        - 'packages/react-ui-kit/**/*'
   pull_request:
       branches:
         - main
       paths:
-        - 'packages/react-ui-kit'
+        - 'packages/react-ui-kit/**/*'
 jobs:
   build:
     runs-on: ubuntu-latest
