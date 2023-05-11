@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-// components
+// useless
 import { Divider, Space } from "@/components";
 
 // images
