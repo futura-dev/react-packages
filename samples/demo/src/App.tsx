@@ -2,13 +2,29 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import { Button } from "../../../packages/react-ui-kit/src/components";
+import { useApi } from "../../../packages/react-utils-kit/dist/api";
+import axios, { AxiosError } from "axios";
+
+const apiCall = () => {
+    return axios.get<{ items: string[] }>('http://localhost:3000/users');
+}
 
 function App() {
   const [count, setCount] = useState(0);
 
+  const {
+      status,
+      response
+  } = useApi(apiCall, new AxiosError());
+
   return (
     <>
+        <div style={{ marginBottom: '10px' }}>
+            { status }
+        </div>
+        <div style={{ marginBottom: '50px' }}>
+            { status === 'success' && JSON.stringify(response.headers) }
+        </div>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -19,7 +35,6 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <Button text="asd"></Button>
         <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR

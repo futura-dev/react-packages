@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@futura-dev/react-ui-kit": "^1.0.0",
+    "@futura-dev/react-utils-kit": "^0.0.2",
+    "axios": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
