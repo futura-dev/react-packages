@@ -1,6 +1,7 @@
 {
   "name": "@futura-dev/react-utils-kit",
-  "version": "0.0.4",
+  "slug": "rut",
+  "version": "0.1.0",
   "description": "React Utils Library",
   "private": false,
   "type": "module",
