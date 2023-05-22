@@ -40,12 +40,9 @@ function App() {
           name="DropzoneFile"
           title="Upload File"
           subTitle="Description upload"
-          file={file}
-          onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
-            const file = event?.target?.files?.[0];
-            file && setFile(file);
-          }}
           reset={() => setFile(null)}
+          onChangeFile={setFile}
+          file={file}
         />
       </div>
 
