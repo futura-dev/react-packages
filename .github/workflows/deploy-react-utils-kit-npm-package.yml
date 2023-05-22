@@ -1,7 +1,6 @@
 name: Publish React UTILS KIT to npmjs
 on:
-  release:
-    type: [published]
+  push:
     tags:
       - rut@**
 jobs:
