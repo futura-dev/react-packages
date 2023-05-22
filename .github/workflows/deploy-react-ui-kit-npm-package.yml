@@ -2,8 +2,8 @@ name: Publish React UI KIT to npmjs
 on:
   release:
     type: [published]
-    paths:
-      - "packages/react-ui-kit/**/*"
+    tags:
+      - rui@**
 jobs:
   build:
     runs-on: ubuntu-latest

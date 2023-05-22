@@ -2,8 +2,8 @@ name: Publish React UTILS KIT to npmjs
 on:
   release:
     type: [published]
-    paths:
-      - "packages/react-utils-kit/**/*"
+    tags:
+      - rut@**
 jobs:
   build:
     runs-on: ubuntu-latest
