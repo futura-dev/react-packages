@@ -1,7 +1,6 @@
 name: Publish React UI KIT to npmjs
 on:
-  release:
-    type: [published]
+  push:
     tags:
       - rui@**
 jobs:
