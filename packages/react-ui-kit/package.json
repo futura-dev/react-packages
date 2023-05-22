@@ -1,7 +1,7 @@
 {
   "name": "@futura-dev/react-ui-kit",
   "slug": "rui",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "React Components Library",
   "private": false,
   "type": "module",
