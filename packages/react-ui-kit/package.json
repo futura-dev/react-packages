@@ -19,7 +19,9 @@
     "node": ">=18"
   },
   "scripts": {
-    "build": "rm -rf dist && tsx ./scripts/build",
+    "build": "rm -rf dist && npx @futura-dev/cosmofactory build",
+    "build:init": "npx @futura-dev/cosmofactory init",
+    "release": "npx @futura-dev/cosmodrom release",
     "lint": "eslint ./src --ext .ts",
     "lint:fix": "npm run lint -- --fix",
     "lint:beautify": "npm run lint:fix && prettier ./src --write"
@@ -35,8 +37,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
-    "eslint": "^8.41.0",
-    "prettier": "^2.8.8",
     "tailwindcss": "^3.3.2",
     "tsx": "^3.12.7",
     "typescript": "^5.0.2"
