@@ -20,7 +20,7 @@
   },
   "scripts": {
     "build": "rm -rf dist && tsx ./scripts/build",
-    "lint": "eslint ./src --ext .ts --config .eslintrc.cjs",
+    "lint": "eslint ./src --ext .ts",
     "lint:fix": "npm run lint -- --fix",
     "lint:beautify": "npm run lint:fix && prettier ./src --write"
   },
