@@ -1,6 +1,7 @@
 import { InputHTMLAttributes } from "react";
 
-export interface InputPrefixProps extends InputHTMLAttributes<HTMLInputElement> {
+export interface InputPrefixProps
+  extends InputHTMLAttributes<HTMLInputElement> {
   id: string;
   name: string;
   prefix: string;

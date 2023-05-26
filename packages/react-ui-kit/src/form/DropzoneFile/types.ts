@@ -1,6 +1,7 @@
 import { InputHTMLAttributes } from "react";
 
-export interface DropzoneFileProps extends InputHTMLAttributes<HTMLInputElement> {
+export interface DropzoneFileProps
+  extends InputHTMLAttributes<HTMLInputElement> {
   id: string;
   name: string;
   label?: string;

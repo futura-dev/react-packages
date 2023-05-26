@@ -7,12 +7,23 @@ import { InputPrefixProps } from "./types";
 import { IconExclamationCircle } from "@/static/icons";
 
 export const InputPrefix = ({ ...props }: InputPrefixProps) => {
-  const { id, label, name, className, invalid = false, errorMessage, prefix } = props;
+  const {
+    id,
+    label,
+    name,
+    className,
+    invalid = false,
+    errorMessage,
+    prefix,
+  } = props;
 
   return (
     <>
       {label && (
-        <label htmlFor={id} className="block futura-text-extra-small leading-6 mb-2">
+        <label
+          htmlFor={id}
+          className="block futura-text-extra-small leading-6 mb-2"
+        >
           {label}
         </label>
       )}
@@ -25,7 +36,9 @@ export const InputPrefix = ({ ...props }: InputPrefixProps) => {
             invalid && "ring-1 ring-inset ring-red-500"
           )}
         >
-          <span className="flex select-none items-center pl-3 text-gray-500 sm:text-sm border-0">{prefix}</span>
+          <span className="flex select-none items-center pl-3 text-gray-500 sm:text-sm border-0">
+            {prefix}
+          </span>
           <input
             {...props}
             type="text"
@@ -34,12 +47,19 @@ export const InputPrefix = ({ ...props }: InputPrefixProps) => {
           />
           {invalid && (
             <div className="absolute end-2 top-2">
-              <IconExclamationCircle color="#FF0000" width="20" height="20" viewBox="0 0 24 24" />
+              <IconExclamationCircle
+                color="#FF0000"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+              />
             </div>
           )}
         </div>
 
-        {invalid && <span className="mt-3 text-sm text-red-500">{errorMessage}</span>}
+        {invalid && (
+          <span className="mt-3 text-sm text-red-500">{errorMessage}</span>
+        )}
       </>
     </>
   );

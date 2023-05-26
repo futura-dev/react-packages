@@ -1,7 +1,11 @@
 // types
 import { SpaceProps } from "./types";
 
-export const Space = ({ direction, size, compose }: SpaceProps): JSX.Element => {
+export const Space = ({
+  direction,
+  size,
+  compose,
+}: SpaceProps): JSX.Element => {
   if (compose)
     return (
       <>

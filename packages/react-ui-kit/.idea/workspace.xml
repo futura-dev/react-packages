@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa3a6302-f768-4fed-b723-21c4453a55a8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-tailwind.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plugin-tailwind.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Alert/Alert.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Alert/Alert.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Divider/Divider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Divider/Divider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Space/Space.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Space/Space.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/DropzoneFile/DropzoneFile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/DropzoneFile/DropzoneFile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/DropzoneFile/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/DropzoneFile/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/Input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/InputPrefix/InputPrefix.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/InputPrefix/InputPrefix.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/InputPrefix/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/InputPrefix/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/TextArea/TextArea.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/TextArea/TextArea.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/TextArea/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/TextArea/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-utils-kit/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/../react-utils-kit/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-utils-kit/.prettierrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/../react-utils-kit/.prettierrc.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-utils-kit/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-utils-kit/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-utils-kit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-utils-kit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-utils-kit/src/api/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-utils-kit/src/api/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-utils-kit/src/api/useApi/useApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-utils-kit/src/api/useApi/useApi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-utils-kit/src/useless/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-utils-kit/src/useless/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-utils-kit/src/useless/useless/useUseless.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-utils-kit/src/useless/useless/useUseless.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../samples/demo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../samples/demo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../samples/demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../samples/demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../samples/demo/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../samples/demo/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../samples/demo/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../samples/demo/src/main.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2QESzvuEvyy1i5Jft1NnHBMKzeu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.15.0&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aesys/Desktop/Progetti/Futura/react-packages/packages/react-ui-kit&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;/Users/aesys/Desktop/Progetti/Futura/react-packages/packages/react-ui-kit/node_modules/eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/aesys/Desktop/Progetti/Futura/react-packages/packages/react-ui-kit/node_modules/prettier&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/aesys/Desktop/Progetti/Futura/react-packages/packages/react-ui-kit/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa3a6302-f768-4fed-b723-21c4453a55a8" name="Changes" comment="" />
+      <created>1684917513435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684917513435</updated>
+      <workItem from="1684917514464" duration="570000" />
+      <workItem from="1684922040750" duration="7723000" />
+      <workItem from="1684958224484" duration="2079000" />
+      <workItem from="1684960312561" duration="423000" />
+      <workItem from="1684960744218" duration="493000" />
+      <workItem from="1684961449363" duration="653000" />
+      <workItem from="1684962124128" duration="1483000" />
+      <workItem from="1684964136695" duration="2158000" />
+      <workItem from="1684967102296" duration="12193000" />
+      <workItem from="1685036728463" duration="220000" />
+      <workItem from="1685036960597" duration="50000" />
+      <workItem from="1685037019633" duration="513000" />
+      <workItem from="1685037571250" duration="599000" />
+      <workItem from="1685038180052" duration="3124000" />
+      <workItem from="1685090703498" duration="1146000" />
+      <workItem from="1685091875718" duration="686000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.eslintignore" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

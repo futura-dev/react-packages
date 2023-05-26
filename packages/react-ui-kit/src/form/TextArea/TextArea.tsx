@@ -9,7 +9,10 @@ export const TextArea = ({ ...props }: TextAreaProps) => {
   return (
     <>
       {label && (
-        <label htmlFor={id} className="block futura-text-extra-small leading-6 mb-2">
+        <label
+          htmlFor={id}
+          className="block futura-text-extra-small leading-6 mb-2"
+        >
           {label}
         </label>
       )}
@@ -21,7 +24,9 @@ export const TextArea = ({ ...props }: TextAreaProps) => {
           invalid && "ring-1 ring-inset ring-red-500"
         )}
       ></textarea>
-      {invalid && <span className="mt-2 text-sm text-red-500">{errorMessage}</span>}
+      {invalid && (
+        <span className="mt-2 text-sm text-red-500">{errorMessage}</span>
+      )}
     </>
   );
 };

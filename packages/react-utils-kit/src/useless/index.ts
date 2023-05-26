@@ -1,1 +1,1 @@
-export { useUseless } from './useless/useUseless'
+export { useUseless } from "./useless/useUseless";

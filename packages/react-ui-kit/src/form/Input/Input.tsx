@@ -12,7 +12,10 @@ export const Input = ({ ...props }: InputProps) => {
   return (
     <>
       {label && (
-        <label htmlFor={id} className="block futura-text-extra-small leading-6 mb-2">
+        <label
+          htmlFor={id}
+          className="block futura-text-extra-small leading-6 mb-2"
+        >
           {label}
         </label>
       )}
@@ -30,7 +33,12 @@ export const Input = ({ ...props }: InputProps) => {
         {invalid && (
           <>
             <div className="absolute end-2 top-2">
-              <IconExclamationCircle color="#FF0000" width="20" height="20" viewBox="0 0 24 24" />
+              <IconExclamationCircle
+                color="#FF0000"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+              />
             </div>
             <span className="mt-3 text-sm text-red-500">{errorMessage}</span>
           </>

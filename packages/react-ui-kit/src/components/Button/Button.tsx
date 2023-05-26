@@ -3,7 +3,13 @@ import classNames from "classnames";
 // types
 import { ButtonProps } from "./types";
 
-export const Button = ({ text, onClick, size, variant = "custom", className = "" }: ButtonProps) => {
+export const Button = ({
+  text,
+  onClick,
+  size,
+  variant = "custom",
+  className = "",
+}: ButtonProps) => {
   let variantClass = "";
   let sizeTextClass = "";
   let sizeButtonClass = "";
@@ -38,13 +44,16 @@ export const Button = ({ text, onClick, size, variant = "custom", className = ""
 
   switch (variant) {
     case "purple":
-      variantClass = "flex justify-center items-center md:h-12 py-1 px-3 bg-futura-purple-500 text-white rounded-[2rem] text-base md:text-xl font-semibold";
+      variantClass =
+        "flex justify-center items-center md:h-12 py-1 px-3 bg-futura-purple-500 text-white rounded-[2rem] text-base md:text-xl font-semibold";
       break;
     case "white":
-      variantClass = "flex justify-center items-center md:h-12 py-1 px-3 bg-white text-background-dark border-background-dark border-solid border-[1px]";
+      variantClass =
+        "flex justify-center items-center md:h-12 py-1 px-3 bg-white text-background-dark border-background-dark border-solid border-[1px]";
       break;
     case "black":
-      variantClass = "flex justify-center items-center md:h-12 py-1 px-3 bg-background-dark text-white border-white border-solid border-[1px]";
+      variantClass =
+        "flex justify-center items-center md:h-12 py-1 px-3 bg-background-dark text-white border-white border-solid border-[1px]";
       break;
     default:
       variantClass = className;
@@ -53,7 +62,10 @@ export const Button = ({ text, onClick, size, variant = "custom", className = ""
 
   return (
     <>
-      <button className={classNames(sizeButtonClass, variantClass, className)} onClick={onClick}>
+      <button
+        className={classNames(sizeButtonClass, variantClass, className)}
+        onClick={onClick}
+      >
         <p className={sizeTextClass}>{text}</p>
       </button>
     </>

@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 
-import plugin from "tailwindcss/plugin";
 import { PluginAPI } from "tailwindcss/types/config";
+
+const plugin = require("tailwindcss/plugin");
 
 export const futura = plugin(
   (_api: PluginAPI) => {

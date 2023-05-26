@@ -21,7 +21,10 @@ type LoadingReturnType = {
   load: () => () => void;
 };
 
-type ReturnType<SUCCESS, ERROR> = SuccessReturnType<SUCCESS> | ErrorReturnType<ERROR> | LoadingReturnType;
+type ReturnType<SUCCESS, ERROR> =
+  | SuccessReturnType<SUCCESS>
+  | ErrorReturnType<ERROR>
+  | LoadingReturnType;
 
 type ReducerStateType<SUCCESS, ERROR> =
   | Omit<SuccessReturnType<SUCCESS>, "load">
@@ -38,7 +41,9 @@ type SuccessStatusAction<SUCCESS> = {
   payload: SUCCESS;
 };
 
-type ReducerActionsType<SUCCESS, ERROR> = SuccessStatusAction<SUCCESS> | ErrorStatusAction<ERROR>;
+type ReducerActionsType<SUCCESS, ERROR> =
+  | SuccessStatusAction<SUCCESS>
+  | ErrorStatusAction<ERROR>;
 
 function apiStatusReducer<SUCCESS, ERROR>(
   state: ReducerStateType<SUCCESS, ERROR>,
@@ -79,12 +84,7 @@ export function useApi<ERROR extends { message: string }, SUCCESS>(
   _error: ERROR,
   meta?: Meta<SUCCESS, ERROR>
 ): ReturnType<SUCCESS, ERROR> {
-
-  const {
-    onSuccess,
-    onError,
-    start = true
-  } = meta || {};
+  const { onSuccess, onError, start = true } = meta || {};
 
   const load = useCallback(() => {
     const controller = new AbortController();
@@ -108,7 +108,10 @@ export function useApi<ERROR extends { message: string }, SUCCESS>(
   }, [api, onSuccess, onError]);
 
   const [state, dispatch] = useReducer<
-    Reducer<ReducerStateType<SUCCESS, ERROR>, ReducerActionsType<SUCCESS, ERROR>>
+    Reducer<
+      ReducerStateType<SUCCESS, ERROR>,
+      ReducerActionsType<SUCCESS, ERROR>
+    >
   >(apiStatusReducer<SUCCESS, ERROR>, {
     status: "loading",
     response: undefined,
